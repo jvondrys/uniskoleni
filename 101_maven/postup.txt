@@ -4,3 +4,23 @@ mvn archetype:generate -DarchetypeArtifactId=maven-archetype-quickstart
 
 2. info
 mvn -v
+
+
+3. nova zavislost
+pridat joda-time
+
+
+4. nastavte kompilaci kodu do 1.7
+
+
+5. mysql jdbc jar do lokalniho repozitory
+mvn install:install-file -Dfile=<path-to-file> -DgroupId=<group-id> -DartifactId=<artifact-id> -Dversion=<version> -Dpackaging=<packaging>    
+
+
+5. multimodul
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>cz.uni....</groupId>
+    <artifactId>simple-parent</artifactId>
+    <version>1.0</version>
+    <modules>...
+    
