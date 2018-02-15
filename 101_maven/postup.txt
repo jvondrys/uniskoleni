@@ -1,0 +1,6 @@
+1. vytvoreni projektu
+mvn archetype:generate -DarchetypeArtifactId=maven-archetype-quickstart
+
+
+2. info
+mvn -v
