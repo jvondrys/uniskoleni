@@ -1,0 +1,7 @@
+1. instalace jenkinse
+wget http://mirrors.jenkins.io/war-stable/latest/jenkins.war
+
+
+2. fork
+https://github.com/jamesward/maven-multi-module-example
+
